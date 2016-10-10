@@ -5,6 +5,7 @@
     "sourceMap": true,
     "jsx": "react",
     "outDir": "test/build",
+    "declaration": true,
     "experimentalDecorators": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
