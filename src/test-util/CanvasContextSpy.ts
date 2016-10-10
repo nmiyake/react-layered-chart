@@ -107,7 +107,7 @@ METHOD_NAMES.forEach(method => {
 // I don't know why this roundabout type definition works and simpler definitions
 // don't, but it took me a while to get here so we're going to leave it, weird
 // though it is (and it requires an annoying `typeof` on definitions to work).
-type MergedCanvasContext = CanvasRenderingContext2D & CanvasContextSpyExtensions & {
+export type MergedCanvasContext = CanvasRenderingContext2D & CanvasContextSpyExtensions & {
   new(): MergedCanvasContext;
 };
 
